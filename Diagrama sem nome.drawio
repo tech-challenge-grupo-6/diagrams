@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-19T00:22:03.994Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" etag="dAXpgv12lGxdSVy8gANb" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-19T00:23:32.622Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" etag="-sdBEwjddQipG3RV2Yq-" version="24.7.1" type="github">
   <diagram name="Página-1" id="dgDxY93Ykha_-oFBlckw">
-    <mxGraphModel dx="1563" dy="1368" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="539" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -171,7 +171,7 @@
         <mxCell id="aW0Yu7wro576LPoF7vZJ-71" value="Gateway Publico" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.internet_gateway;fillColor=#F58534;gradientColor=none;" parent="aW0Yu7wro576LPoF7vZJ-72" vertex="1">
           <mxGeometry x="30.5" y="29" width="69" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="aW0Yu7wro576LPoF7vZJ-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" parent="aW0Yu7wro576LPoF7vZJ-11" source="aW0Yu7wro576LPoF7vZJ-71" target="aW0Yu7wro576LPoF7vZJ-75" edge="1">
+        <mxCell id="aW0Yu7wro576LPoF7vZJ-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" parent="aW0Yu7wro576LPoF7vZJ-11" source="uvfNVaMpd_yxzRbIdQh--2" target="aW0Yu7wro576LPoF7vZJ-75" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aW0Yu7wro576LPoF7vZJ-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="aW0Yu7wro576LPoF7vZJ-11" source="aW0Yu7wro576LPoF7vZJ-75" target="aW0Yu7wro576LPoF7vZJ-55" edge="1">
@@ -197,6 +197,15 @@
         </mxCell>
         <mxCell id="aW0Yu7wro576LPoF7vZJ-75" value="Load Balancer" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;" parent="aW0Yu7wro576LPoF7vZJ-11" vertex="1">
           <mxGeometry x="939" y="461" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="uvfNVaMpd_yxzRbIdQh--3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="aW0Yu7wro576LPoF7vZJ-11" source="aW0Yu7wro576LPoF7vZJ-71" target="uvfNVaMpd_yxzRbIdQh--2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2711" y="618" as="sourcePoint" />
+            <mxPoint x="2257" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uvfNVaMpd_yxzRbIdQh--2" value="Internal Gateway" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.customer_gateway;fillColor=#F58534;gradientColor=none;" vertex="1" parent="aW0Yu7wro576LPoF7vZJ-11">
+          <mxGeometry x="1099" y="495.5" width="69" height="72" as="geometry" />
         </mxCell>
         <mxCell id="aW0Yu7wro576LPoF7vZJ-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aW0Yu7wro576LPoF7vZJ-82" target="aW0Yu7wro576LPoF7vZJ-72" edge="1">
           <mxGeometry relative="1" as="geometry" />
